@@ -1,8 +1,8 @@
 ﻿Console.WriteLine($"Que ano você nasceu?");
 int anoAniversario = int.Parse(Console.ReadLine());
 
-int ano = DateTime.Today.Year - anoAniversario;
+int idade = DateTime.Today.Year - anoAniversario;
 
-float semanas = ano * 52.1786f; 
+float idadeSemanas = idade * 52.1786f; 
 
-Console.WriteLine($"Você tem {ano} anos, que corresponde à {Math.Round(semanas)} semanas");
+Console.WriteLine($"Você tem {idade} anos, que corresponde à {Math.Round(idadeSemanas)} semanas");
